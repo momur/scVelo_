@@ -1,0 +1,15 @@
+# scVelo RNA velocity pipeline
+# Install in a dedicated conda env (Python 3.9 recommended):
+#   conda create -n scvelo python=3.9
+#   conda activate scvelo
+#   pip install -r requirements.txt
+
+scvelo>=0.2.5
+cellrank>=1.5.1
+scanpy>=1.9.0
+anndata>=0.9.0
+pandas==1.3.5        # pandas >=2.0 breaks some scVelo plot functions
+numpy>=1.23.0
+scipy>=1.9.0
+session-info>=1.0.0
+loompy>=3.0.6
